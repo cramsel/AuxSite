@@ -10,5 +10,22 @@
 </div>
 
 <div class="upload-area">
-    <button type="button">Upload Track</button>
+    <input id="audio_file" type="file" accept="audio/*"/>
+    <p>
+        <audio controls id="audio_player">
+        </audio>
+    </p>
 </div>
+
+@section Scripts
+{
+    <script type="text/javascript" language="javascript">
+        audio_file.onchange = function() {
+            var files = this.files;
+            var file =  URL.createObjectURL(files[0]);
+            audio_player.src = file;
+            audio_player.play();
+        }
+        
+    </script>
+}
