@@ -1,7 +1,13 @@
+using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.DependencyInjection;
+using AuxCordSite.Data;
 var builder = WebApplication.CreateBuilder(args);
+var songRootDirectory = builder.Configuration["Songs:DirectoryRootString"];
 
 // Add services to the container.
 builder.Services.AddRazorPages();
+builder.Services.AddDbContext<AuxCordSiteContext>(options =>
+    options.UseSqlServer(builder.Configuration.GetConnectionString("AuxCordSiteContext") ?? throw new InvalidOperationException("Connection string 'AuxCordSiteContext' not found.")));
 
 var app = builder.Build();
 

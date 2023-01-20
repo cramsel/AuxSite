@@ -5,6 +5,10 @@
       "PackagePath": "staticwebassets\\AuxCordSite.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\Calum\\Documents\\PortfolioProjs\\AuxCordSite\\wwwroot\\css\\Index.css",
+      "PackagePath": "staticwebassets\\css\\Index.css"
+    },
+    {
       "Id": "C:\\Users\\Calum\\Documents\\PortfolioProjs\\AuxCordSite\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },

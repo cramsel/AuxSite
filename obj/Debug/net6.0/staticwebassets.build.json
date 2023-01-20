@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "wmV2xJBgk6/j8n8qJugYwCx9O0Pkbg9x2kVs9gTyzWk=",
+  "Hash": "UgtA+ZL/MP6QNC0BVP8jUZCXp6LNXdoR7PZm/9UtjJ8=",
   "Source": "AuxCordSite",
   "BasePath": "_content/AuxCordSite",
   "Mode": "Default",
@@ -49,6 +49,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\Calum\\Documents\\PortfolioProjs\\AuxCordSite\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\AuxCordSite.bundle.scp.css"
+    },
+    {
+      "Identity": "C:\\Users\\Calum\\Documents\\PortfolioProjs\\AuxCordSite\\wwwroot\\css\\Index.css",
+      "SourceId": "AuxCordSite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Calum\\Documents\\PortfolioProjs\\AuxCordSite\\wwwroot\\",
+      "BasePath": "_content/AuxCordSite",
+      "RelativePath": "css/Index.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\Index.css"
     },
     {
       "Identity": "C:\\Users\\Calum\\Documents\\PortfolioProjs\\AuxCordSite\\wwwroot\\css\\site.css",
